@@ -9,7 +9,7 @@ import time
 #print("Your Computer Name is:" + hostname)    
 #print("Your Computer IP Address is:" + IPAddr) 
 
-ip_list = ['193.168.1.144','192.168.1.10', '192.168.1.144',]
+ip_list = ['IP ADDRESS 1','IP ADDRESS 2', 'IP ADDRESS 3',]
 for ip in ip_list:
     response = os.popen(f"ping {ip}").read()
     if "Received = 4" in response:
